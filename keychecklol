@@ -1,0 +1,15 @@
+<?php
+
+$keys = array('1MGSDFG54DFSGN2345H2235U2R32',); 
+$users = array('2538434222',); 
+$sub = $_GET["214H125YUGDFR87TY34FDBGY3453"];
+$subuser = $_GET["user"];
+$subip = $_SERVER['REMOTE_ADDR'];
+if (in_array($sub,$keys,TRUE)) if (in_array($subuser,$users,TRUE)) if (in_array($subip,$ip,TRUE)) {
+print('~ True ~');
+}
+else
+{
+print ($_SERVER['REMOTE_ADDR']);
+}
+?>
